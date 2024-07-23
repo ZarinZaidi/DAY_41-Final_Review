@@ -49,9 +49,10 @@ Clone the repository:
 
 2. Create a `.env` file in the `server` directory with the following environment variables:
     ```env
-    MONGODB_URI=mongodb+srv://aereinzayed:userzarin@cluster0.x2fyyot.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0
-    JWT_SECRET=somethingsecret
-    PAYPAL_CLIENT_ID=AWI9tIqfKYmT59PFXGys8ELdgskkfJHGP8mpL5q5tIDDZMReIpf5TqSzj7vhm6c8almPk9Ntw2-Ca01l
+    PORT=5000
+    MONGODB_URL
+    PASSWORD_SECRET_KEY
+    TOKEN_SECRET_KEY
     ```
 
 3. Start the server:
